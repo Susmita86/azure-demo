@@ -52,12 +52,14 @@ The module has no explicit outputs, but once the infrastructure is set up, you c
 Note
 The terraform will create the following resources:
 
-Resource Group named function-rg in the West Europe region.
-Storage Account named myfastorageaccount within the above resource group.
-App Service Plan named my-function-app-plan within the above resource group.
-Function App named susmita-function-app within the above resource group.
-API Management named susmitasen-apim within the above resource group.
-API Management API named example-api within the above API Management.
+* Resource Group named function-rg in the West Europe region.
+* Storage Account named myfastorageaccount within the above resource group.
+* App Service Plan named my-function-app-plan within the above resource group.
+* Function App named susmita-function-app within the above resource group.
+* vAPI Management named susmitasen-apim within the above resource group.
+* API Management API named example-api within the above API Management.
+
+
 Please remember to replace the hardcoded values with your actual requirement. Especially replace company@terraform.io with your actual email.
 
 License
