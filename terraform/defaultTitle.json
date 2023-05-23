@@ -1,0 +1,70 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "defaultTitle",
+        "description": "defaultDescription",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "https://susmita-function-app.azurewebsites.net/"
+        }
+    ],
+    "paths": {
+        "/api/httpexample": {
+            "get": {
+                "summary": "/api/httpexample - GET",
+                "description": "Auto generated using Swagger Inspector",
+                "operationId": "get-api-httpexample",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "schema": {
+                            "type": ""
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "text/plain; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {
+                                    "default": {
+                                        "value": null
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "apiKeyHeader": {
+                "type": "apiKey",
+                "name": "Ocp-Apim-Subscription-Key",
+                "in": "header"
+            },
+            "apiKeyQuery": {
+                "type": "apiKey",
+                "name": "subscription-key",
+                "in": "query"
+            }
+        }
+    },
+    "security": [
+        {
+            "apiKeyHeader": []
+        },
+        {
+            "apiKeyQuery": []
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+/terraform/terraform.tfstate.backup
+/terraform/.terraform.lock.hcl
+/terraform/.terraform/
+/LocalFunctionProj/.vscode/
+/LocalFunctionProj/.python_packages/
+/venv/
+/azure-demo.zip
+/.idea/
